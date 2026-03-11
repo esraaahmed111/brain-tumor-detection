@@ -146,7 +146,7 @@ def main():
     img_paths  = [p.replace('_mask.tif', '.tif') for p in mask_paths]
     missing    = [p for p in img_paths if not os.path.exists(p)]
     if missing:
-        print(f"⚠️  {len(missing)} missing images — check data_dir")
+        print(f" {len(missing)} missing images — check data_dir")
         return
     print(f"Found {len(img_paths)} image-mask pairs")
 
