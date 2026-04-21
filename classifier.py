@@ -15,7 +15,7 @@ from torchvision import transforms, models
 from PIL import Image
 import warnings
 
-# Configurations
+# Configuration
 warnings.filterwarnings('ignore')
 
 CONFIG = {
