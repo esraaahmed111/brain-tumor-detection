@@ -1,0 +1,20 @@
+# Datasets — add your data here locally, not committed
+data/*
+!data/.gitkeep
+archive.zip
+
+# Model weights
+outputs/*.pth
+best_brain_model.pth
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.env
+.venv
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
